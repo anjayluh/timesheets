@@ -34,6 +34,7 @@ app.use(function(req, res, next) {
 
 app.use('/', indexRouter);
 app.use('/register', loginRouter);
+app.use('/create-new', loginRouter);
 app.use('/login', loginRouter);
 app.use('/authenticate', loginRouter);
 

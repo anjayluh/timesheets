@@ -7,11 +7,19 @@
 </head>
 
 <body>
-    <form action="/register" method="POST">
-        <input type="text" placeholder="name" name="name" />
-        <input type="text" placeholder="email" name="email" />
-        <input type="text" placeholder="password" name="password" />
-        <button type="submit">Submit</button>
+    <div>
+        <h2>Register</h2>
+    </div>
+    <form action="/create-new" method="POST">
+        <div><input type="text" placeholder="Username" name="name" /></div>
+        <div><input type="email" placeholder="Email" name="email" /></div>
+        <div>
+            <input type="password" placeholder="Password" name="password" />
+        </div>
+        <div>
+            <input type="password" placeholder="Repeat Password" name="repeat-password" />
+        </div>
+        <div><button type="submit">Submit</button></div>
     </form>
 </body>
 
